@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿#if DEBUG
+using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PlistCS;
@@ -97,3 +98,4 @@ public class plistTests
         CheckDictionary((Dictionary<string, object>)Plist.readPlist(Plist.writeBinary(CreateDictionary())));
     }
 }
+#endif

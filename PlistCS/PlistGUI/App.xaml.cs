@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WpfApp1;
+namespace PlistGUI;
 
 public partial class App : Application
 {

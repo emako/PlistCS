@@ -7,7 +7,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows;
 
-namespace WpfApp1;
+namespace PlistGUI;
 
 public partial class MainWindow : Window, INotifyPropertyChanged
 {
